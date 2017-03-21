@@ -1,0 +1,104 @@
+body{
+		background-color: #091826;
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		}
+		header{
+			text-align: center;
+			background-color: #52616F;
+			margin: 0;
+			overflow: hidden;
+			position: fixed;
+			top: 0;
+			display: block;
+			width: 100%;
+			
+		}
+		header h1{
+			margin: 0;
+			padding: 0;
+			color: #fff;
+			font-size: 45px;
+			font-weight: 900;
+			letter-spacing: -5px;
+		}
+		header p{
+			margin: 0;
+			padding-bottom: 20px;
+			color: #fff;
+			font-size: 22px;
+			font-weight: 700;
+			letter-spacing: 5px;
+		}
+		.result{
+			margin: 0 auto;
+			padding: 11em 0 9em 0;
+			display: block;
+		    text-align: center;
+		    color: #fff;
+		}
+		.oddevan{
+			margin: 0 auto;
+			padding: 8em 0;
+			display: block;
+		    text-align: center;
+		    color: #fff;
+		    background-color: rgba(70, 92, 119, 0.44);
+		}
+		#ShowResult,#ShowEvn{
+			width: 450px;
+			min-height: 40px;
+			padding: 10px 0px;
+			text-align: center;
+			background-color: #3B4F63;
+			color: #F6FE8B;
+			border: 3px solid lightblue;
+			border-radius: 4px;
+			font-size: 40px;
+			margin: 0 auto;
+			margin-top: 1em;
+		}
+		#ShowEvn{
+			font-size: 30px;
+		}
+		#inputNmdr,#inputEvn{
+			padding: 15px 25px;
+			font-size: 25px;
+			text-align: center;
+			margin-bottom: 30px;
+			background-color: #F2F9FC;
+			font-weight: 700px;
+		}
+		button{
+			padding: 10px 20px;
+			font-size: 18px;
+			font-weight: 700px;
+			background-color: #1d3d5a;
+			color: #fff;
+			border-radius: 15px;
+			border: 1.5px solid #fff;
+			transition: all .5s ease;
+			-webkit-transition: all .5s ease;
+			-moz-transition: all .5s ease;
+		}
+		button:hover{
+			background-color: #2b5d8a;
+		}
+		.result h1, .oddevan h1{
+			font-size: 30px;
+			margin-bottom: 30px;
+			font-weight: 700;
+		}
+
+		footer{
+			text-align: center;
+
+		}
+		footer p{
+			font-size: 12px;
+			letter-spacing: 4px;
+			color: #fff;
+			padding: 4em 0;
+		}
+		

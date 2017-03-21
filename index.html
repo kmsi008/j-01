@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JAVA SCRIPT 01</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+	<header>
+		<h1>JAVA SCRIPT FIRST ASSIGNMENT</h1>
+		<p>Coders Trust (CTG - 54)</p>
+	</header><!--shahed-->
+	<secion class="result">
+		<h1>Result Execution </h1>
+		
+		<input type="text" id="inputNmdr"><br>
+		<button type="button" onclick="ShowforClick()">Click me to show Result</button>
+		<h2 id="ShowResult"></h2>
+	</secion>
+	<!--shahed-->
+	<section class="oddevan">
+		<h1>Even-Odd Calculator </h1>
+		
+		<input type="text" id="inputEvn"> <br>
+		<button type="button" onclick="ShowforEvOd()">Click to show Even of Odd</button>
+		<h2 id="ShowEvn"></h2>
+	</section><!--shahed-->
+	<footer>
+		<p>&copy; CopyRight 2017 Mithu | All Rights Resereved.</p>
+	</footer>
+
+
+<script>
+	
+	function ShowforClick(){
+		var a=document.getElementById("inputNmdr").value;
+		var Show=document.getElementById("ShowResult");
+		if(a<=100){
+			Show.innerHTML="A+";
+			if(a<=79){
+				Show.innerHTML="A";
+				if(a<=69){
+					Show.innerHTML="A-";
+					if(a<=59){
+						Show.innerHTML="B";
+						if(a<=49){
+							Show.innerHTML="C";
+							if(a<=39){
+								Show.innerHTML="D";
+								if(a<=32 && a>=0){
+									Show.innerHTML="F";
+									if(a<0){
+										Show.innerHTML="Invalid Mark";
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else{
+			Show.innerHTML="Invalid Mark";
+		}
+		
+	}
+	// <!--shahed-->
+	function ShowforEvOd(){
+		var b=document.getElementById("inputEvn").value;
+		var Disp=document.getElementById("ShowEvn");
+		if(b%2==0){
+			Disp.innerHTML="The number is Even";
+		} 
+		else {
+			Disp.innerHTML="The number is Odd";
+			}
+	}
+	// var i;
+	// for (i = 0; i < 1000; i++)
+	// if ((i % 2) == 0)
+	//   document.writeln(i);
+</script>
+
+</body>
+</html>
